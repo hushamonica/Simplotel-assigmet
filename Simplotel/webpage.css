@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    font-size: 18px; 
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar .brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    height: 80px; 
+}
+
+.navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto; 
+}
+
+.navbar .nav-links li {
+    margin: 0; 
+}
+
+.navbar .nav-links a {
+    color: rgb(9, 0, 0);
+    text-decoration: none;
+    padding: 14px 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.navbar .nav-links a i {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.image-section {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 70px; 
+    left: 3%;
+    background-image: linear-gradient(to right, rgba(1, 0, 0, 1), rgba(126, 124, 124, 1));
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    width:320px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-title {
+    font-size: 28px; 
+    font-family: Arial, sans-serif;;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.description-container {
+    background-color: #a5a3a3aa; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: -0.5%;
+
+  }
+  
+  .description-container p {
+    width: 26%; 
+    margin: 30px; 
+    font-family: Times New Roman, serif; 
+    font-size: 18px; 
+    line-height: 1.5; 
+    text-align: center; 
+    color: #000; 
+  }
+
+  .horizontal-images {
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px; 
+}
+
+
+.image-container {
+    flex: 1; 
+    margin: 0 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.image-container img {
+    width: 85%; 
+    height: auto; 
+    vertical-align: middle;
+}
+
+.image-info {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.image-info p {
+    margin: 5px 0; 
+    font-size: 18px; 
+    text-align: center; 
+    color: #000; 
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000; 
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; 
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #000000; 
+}
